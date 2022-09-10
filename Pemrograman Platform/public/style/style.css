@@ -551,123 +551,35 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+.grid {
+  display: grid;
 }
 
-.flex {
-  display: flex;
+.w-8 {
+  width: 2rem;
 }
 
-.w-\[390px\] {
-  width: 390px;
+.w-56 {
+  width: 14rem;
 }
 
-.w-2\/6 {
-  width: 33.333333%;
+.w-6 {
+  width: 1.5rem;
 }
 
-.items-center {
-  align-items: center;
+.max-w-xs {
+  max-width: 20rem;
 }
 
-.justify-center {
-  justify-content: center;
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.justify-around {
-  justify-content: space-around;
+.justify-items-center {
+  justify-items: center;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
-.border-t-2 {
-  border-top-width: 2px;
-}
-
-.border-red-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity));
-}
-
-.bg-test {
-  background-image: url('./public/images/test.png');
-}
-
-.bg-\[url\(\'\.\/images\/test\.png\'\)\] {
-  background-image: url('./images/test.png');
-}
-
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-@-webkit-keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
-            animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
-            animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
-            animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
-            animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.hover\:animate-bounce:hover {
-  -webkit-animation: bounce 1s infinite;
-          animation: bounce 1s infinite;
+.bg-\[\#E7F6F2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 246 242 / var(--tw-bg-opacity));
 }
