@@ -3,9 +3,12 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
-      backgroundImage: {
-        'test': "url('./public/images/test.png')",
-      } 
+      fontFamily: {
+        'dosis': ['"Dosis"', 'sans-serif']
+      },
+      colors: {
+        'blue-donk': '#06283D',
+      },
     },
   },
   plugins: [],

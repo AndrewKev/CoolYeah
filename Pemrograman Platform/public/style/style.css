@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap');
+
 /*
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
 */
@@ -410,7 +412,7 @@ video {
   height: auto;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -457,7 +459,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::-webkit-backdrop {
+::-webkit-backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -504,7 +506,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -551,35 +553,179 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.grid {
+.ml-3{
+  margin-left: 0.75rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
+}
+
+.mr-6{
+  margin-right: 1.5rem;
+}
+
+.mt-32{
+  margin-top: 8rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.grid{
   display: grid;
 }
 
-.w-8 {
-  width: 2rem;
+.h-20{
+  height: 5rem;
 }
 
-.w-56 {
+.w-\[19rem\]{
+  width: 19rem;
+}
+
+.w-56{
   width: 14rem;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
-.max-w-xs {
-  max-width: 20rem;
-}
-
-.grid-cols-4 {
+.grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.justify-items-center {
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-items-center{
   justify-items: center;
 }
 
-.bg-\[\#E7F6F2\] {
+.rounded{
+  border-radius: 0.25rem;
+}
+
+.rounded-tl-xl{
+  border-top-left-radius: 0.75rem;
+}
+
+.rounded-br-xl{
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-bl-sm{
+  border-bottom-left-radius: 0.125rem;
+}
+
+.rounded-tr-sm{
+  border-top-right-radius: 0.125rem;
+}
+
+.bg-\[\#E7F6F2\]{
   --tw-bg-opacity: 1;
   background-color: rgb(231 246 242 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E23E57\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 62 87 / var(--tw-bg-opacity));
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-32{
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.py-\[10px\]{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.px-\[31px\]{
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+.pr-10{
+  padding-right: 2.5rem;
+}
+
+.pt-32{
+  padding-top: 8rem;
+}
+
+.pt-28{
+  padding-top: 7rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
+}
+
+.font-dosis{
+  font-family: "Dosis", sans-serif;
+}
+
+.text-\[32px\]{
+  font-size: 32px;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.text-\[\#E23E57\]{
+  --tw-text-opacity: 1;
+  color: rgb(226 62 87 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-blue-donk{
+  --tw-text-opacity: 1;
+  color: rgb(6 40 61 / var(--tw-text-opacity));
+}
+
+.hover\:bg-\[\#06283D\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 40 61 / var(--tw-bg-opacity));
+}
+
+.hover\:fill-\[\#06283D\]:hover{
+  fill: #06283D;
+}
+
+.hover\:text-\[\#E23E57\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(226 62 87 / var(--tw-text-opacity));
 }
